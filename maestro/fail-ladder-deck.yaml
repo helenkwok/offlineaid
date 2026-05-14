@@ -1,0 +1,45 @@
+# 11-09 FAIL-LADDER-1 verification deck (dev build).
+# Targets the dev variant; verifies chip + sheet + settings toggle row.
+# Doesn't require a loaded model -- those checks are deferred to the
+# coverage-gap deck which loads gemma-4-E2B first.
+appId: com.helenkwok.offlineaid.dev
+name: fail-ladder-deck
+---
+- launchApp:
+    clearState: false
+- tapOn:
+    text: "Continue"
+    optional: true
+- tapOn:
+    text: "Chat"
+    optional: true
+# 1. ReadinessChip visible (any of its labels qualifies; no-model state in
+#    a fresh dev launch).
+- assertVisible:
+    text: "No model"
+- takeScreenshot: /tmp/fail-ladder-01-chip.png
+# 2. Tap chip -> ReadinessSheet opens with the four sections per plan §249.
+- tapOn:
+    text: "No model"
+- assertVisible: "MODEL"
+- assertVisible: "PACKS"
+- assertVisible: "SOURCES"
+- assertVisible: "Cite active knowledge packs"
+- assertVisible: "Import pack"
+- takeScreenshot: /tmp/fail-ladder-02-sheet.png
+# 3. Dismiss sheet via Open Models nav (sheet auto-dismisses on route push).
+#    NB: tapping Open Models also routes to /models -- we navigate back to
+#    Settings -> Chat to verify the closest-match toggle row.
+- tapOn:
+    text: "Open Models"
+- takeScreenshot: /tmp/fail-ladder-03-models-screen.png
+- back
+- tapOn:
+    text: "Settings"
+# Tap the Chat ROW in the settings destination list, not the Chat TAB.
+# Match by description so we land on /chat-settings, not the Chat tab.
+- tapOn:
+    text: "Preferences for refusals and closest-match suggestions."
+- assertVisible: "Suggest closest pack content on refusals"
+- assertVisible: "When no pack covers your question, also show the closest grounded snippet from your packs. May be off-topic, verify before acting."
+- takeScreenshot: /tmp/fail-ladder-04-settings-chat.png

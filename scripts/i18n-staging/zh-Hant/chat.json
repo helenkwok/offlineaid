@@ -1,0 +1,21 @@
+{
+  "title": "OfflineAid",
+  "placeholder": "請提問…",
+  "listening": "正在離線聆聽…",
+  "thinking": "正在思考…",
+  "model_unloaded_banner": "模型已卸載 — 請開啟設定 → 模型，然後點擊載入以恢復。",
+  "offline_sources": "離線來源",
+  "static_ref_warning": "靜態參考資料；狀態可能已更改。",
+  "copy_filename": "複製檔案名稱",
+  "copy_snippet": "複製片段",
+  "empty_app_name": "OfflineAid",
+  "empty_tagline": "您的離線危機與緊急助理",
+  "empty_no_model_title": "未載入模型",
+  "empty_no_model_body": "載入模型開始聊天。所有內容都在裝置上運行，無需連線。",
+  "empty_no_model_cta": "前往模型 →",
+  "empty_ready_title": "聊天準備就緒",
+  "empty_ready_no_packs": "您可以立即開始提問。新增知識包以利用離線資料：地圖、健康指南或當地緊急資訊。",
+  "empty_browse_packs": "瀏覽知識包",
+  "empty_ready_packs_one": "已啟用 1 個知識包。答案將以您的離線資料為基礎。",
+  "empty_ready_packs_other": "已啟用 {{count}} 個知識包。答案將以您的離線資料為基礎。"
+}

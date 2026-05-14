@@ -1,0 +1,22 @@
+{
+  "title": "相机",
+  "perception_capabilities": "感知能力",
+  "mode_photo": "照片",
+  "mode_photo_a11y": "拍摄照片",
+  "mode_scan": "扫描",
+  "mode_scan_a11y": "扫描条形码或二维码",
+  "mode_library": "相册",
+  "mode_library_a11y": "从相册选择照片",
+  "live_cues_title": "实时提示",
+  "live_cues_body": "实时提示保持条形码检测处于激活状态，并每隔几秒对视图进行采样，以获取轻量级标签。OCR和实体将在您捕获或导入帧并运行“分析”后填充。",
+  "pause_live_scan": "暂停实时扫描",
+  "resume_live_scan": "恢复实时扫描",
+  "live_status_sampling": "正在采样…",
+  "live_status_watching": "正在观看",
+  "live_status_paused": "已暂停",
+  "live_ocr": "实时OCR",
+  "live_barcodes": "实时条形码",
+  "live_labels": "实时标签",
+  "live_scan_hint": "将摄像头对准标志、表格、收据、菜单、二维码或文档，即可开始看到实时提示。",
+  "feature_name": "相机与感知"
+}

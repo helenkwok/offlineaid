@@ -1,0 +1,8 @@
+{
+  "camera_title": "Allow camera access",
+  "camera_body": "Capture reference photos, documents, or scene context directly inside OfflineAid.",
+  "camera_action": "Grant access",
+  "camera_blocked_title": "Camera permission blocked",
+  "camera_blocked_body": "Camera access is turned off for OfflineAid. Open system settings to enable it again.",
+  "camera_blocked_action": "Open settings"
+}

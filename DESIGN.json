@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-04T00:00:00Z",
+  "title": "Design System: OfflineAid",
+  "extensions": {
+    "colorMeta": {
+      "red-600": {
+        "role": "primary",
+        "displayName": "Field Red 600",
+        "canonical": "oklch(58% 0.22 27)",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5"]
+      },
+      "red-700": {
+        "role": "primary",
+        "displayName": "Field Red 700 (Pressed)",
+        "canonical": "oklch(52% 0.22 27)",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5"]
+      },
+      "red-400": {
+        "role": "secondary",
+        "displayName": "Field Red 400 (Dark Text)",
+        "canonical": "oklch(70% 0.18 27)",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5"]
+      },
+      "red-300": {
+        "role": "secondary",
+        "displayName": "Field Red 300 (Dark Muted)",
+        "canonical": "oklch(78% 0.13 27)",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5"]
+      },
+      "red-50": {
+        "role": "tertiary",
+        "displayName": "Red 50 Tinted Surface",
+        "canonical": "oklch(97% 0.013 27)",
+        "tonalRamp": ["#fef2f2", "#fee2e2", "#fecaca", "#fca5a5", "#f87171", "#ef4444", "#dc2626", "#b91c1c"]
+      },
+      "red-950": {
+        "role": "tertiary",
+        "displayName": "Red 950 Tinted Surface",
+        "canonical": "oklch(20% 0.07 27)",
+        "tonalRamp": ["#450a0a", "#7f1d1d", "#991b1b", "#b91c1c", "#dc2626", "#ef4444", "#f87171", "#fca5a5"]
+      },
+      "text-light": {
+        "role": "neutral",
+        "displayName": "Ink (Light)",
+        "canonical": "oklch(20% 0.02 263)",
+        "tonalRamp": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252", "#737373", "#a8a29e", "#e7e5e4"]
+      },
+      "text-dark": {
+        "role": "neutral",
+        "displayName": "Ink (Dark)",
+        "canonical": "oklch(97% 0.005 247)",
+        "tonalRamp": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252", "#737373", "#a8a29e", "#f8fafc"]
+      },
+      "background-light": {
+        "role": "neutral",
+        "displayName": "Stone Background (Light)",
+        "canonical": "oklch(96% 0.005 80)",
+        "tonalRamp": ["#1c1917", "#292524", "#44403c", "#57534e", "#78716c", "#a8a29e", "#d6d3d1", "#f5f5f4"]
+      },
+      "background-dark": {
+        "role": "neutral",
+        "displayName": "Charcoal Background (Dark)",
+        "canonical": "oklch(15% 0.003 80)",
+        "tonalRamp": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252", "#737373", "#a8a29e", "#d6d3d1"]
+      },
+      "surface-element-light": {
+        "role": "neutral",
+        "displayName": "Element Surface (Light)",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#1c1917", "#292524", "#44403c", "#78716c", "#a8a29e", "#d6d3d1", "#f5f5f4", "#ffffff"]
+      },
+      "surface-element-dark": {
+        "role": "neutral",
+        "displayName": "Element Surface (Dark)",
+        "canonical": "oklch(20% 0.003 80)",
+        "tonalRamp": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252", "#737373", "#a8a29e", "#d6d3d1"]
+      },
+      "border-light": {
+        "role": "neutral",
+        "displayName": "Hairline Border (Light)",
+        "canonical": "oklch(91% 0.005 80)",
+        "tonalRamp": ["#1c1917", "#292524", "#44403c", "#78716c", "#a8a29e", "#d6d3d1", "#e7e5e4", "#f5f5f4"]
+      },
+      "border-dark": {
+        "role": "neutral",
+        "displayName": "Hairline Border (Dark)",
+        "canonical": "oklch(35% 0.003 80)",
+        "tonalRamp": ["#0a0a0a", "#171717", "#262626", "#404040", "#525252", "#737373", "#a8a29e", "#d6d3d1"]
+      },
+      "warning-text-light": {
+        "role": "tertiary",
+        "displayName": "Warning Text (Light)",
+        "canonical": "oklch(45% 0.13 50)",
+        "tonalRamp": ["#431407", "#7c2d12", "#9a3412", "#c2410c", "#ea580c", "#f97316", "#fb923c", "#fed7aa"]
+      },
+      "warning-text-dark": {
+        "role": "tertiary",
+        "displayName": "Warning Text (Dark)",
+        "canonical": "oklch(85% 0.07 70)",
+        "tonalRamp": ["#431407", "#7c2d12", "#9a3412", "#c2410c", "#ea580c", "#f97316", "#fb923c", "#fed7aa"]
+      },
+      "success-text-light": {
+        "role": "tertiary",
+        "displayName": "Success Text (Light)",
+        "canonical": "oklch(45% 0.14 145)",
+        "tonalRamp": ["#052e16", "#14532d", "#166534", "#15803d", "#16a34a", "#22c55e", "#4ade80", "#86efac"]
+      },
+      "success-text-dark": {
+        "role": "tertiary",
+        "displayName": "Success Text (Dark)",
+        "canonical": "oklch(78% 0.18 145)",
+        "tonalRamp": ["#052e16", "#14532d", "#166534", "#15803d", "#16a34a", "#22c55e", "#4ade80", "#86efac"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "App brand mark on chat empty state, used once per cold start." },
+      "headline": { "displayName": "Headline", "purpose": "Top-of-screen titles below the native stack header." },
+      "title": { "displayName": "Title", "purpose": "Card titles, list-item primary text, settings rows." },
+      "body": { "displayName": "Body", "purpose": "Default body copy, failure-state body, settings notes." },
+      "bodyEmphasis": { "displayName": "Body Emphasis", "purpose": "Status messages, tagline copy, link rows." },
+      "label": { "displayName": "Label", "purpose": "UPPERCASE structural section labels." },
+      "mono": { "displayName": "Mono", "purpose": "Diagnostic data — TTFT, tok/s, hashes, file paths, model IDs." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "press-feedback", "value": "opacity 150ms linear", "purpose": "Default press feedback. opacity: 0.85 on Pressable." },
+      { "name": "ambient-pulse", "value": "Animated.loop opacity 0.4↔1.0 700ms ease-in-out, native-driver, gates on prefers-reduced-motion", "purpose": "AmbientBanner system-state dot. The only ambient motion in the app." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "≤480pt" },
+      { "name": "max-content", "value": "800pt (MaxContentWidth ceiling on tablet)" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (Red Fill)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single dominant action. Red-600 fill, white text, pill shape, 44pt touch target.",
+      "html": "<button class=\"ds-btn-primary\">Go to Models →</button>",
+      "css": ".ds-btn-primary { background: #dc2626; color: #ffffff; padding: 10px 14px; min-height: 44px; border: none; border-radius: 999px; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; cursor: pointer; transition: opacity 150ms linear, background 150ms linear; } .ds-btn-primary:active { opacity: 0.85; background: #b91c1c; } .ds-btn-primary:focus-visible { outline: 2px solid #b91c1c; outline-offset: 2px; }"
+    },
+    {
+      "name": "Neutral Primary Button (Inverted)",
+      "kind": "button",
+      "refersTo": "button-neutral",
+      "description": "High-contrast inverted action. Used in FailureWarn primary and FailureCritical fallback — structurally cannot be confused with a red action.",
+      "html": "<button class=\"ds-btn-neutral\">Try again</button>",
+      "css": ".ds-btn-neutral { background: #111827; color: #ffffff; padding: 10px 14px; min-height: 44px; border: none; border-radius: 999px; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; cursor: pointer; transition: opacity 150ms linear; } .ds-btn-neutral:active { opacity: 0.85; } .ds-btn-neutral:focus-visible { outline: 2px solid #111827; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Bordered Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Bordered tertiary action. Transparent background, hairline border, ink text.",
+      "html": "<button class=\"ds-btn-secondary\">Cancel</button>",
+      "css": ".ds-btn-secondary { background: transparent; color: #111827; padding: 10px 14px; min-height: 44px; border: 1px solid #e7e5e4; border-radius: 999px; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: opacity 150ms linear; } .ds-btn-secondary:active { opacity: 0.85; }"
+    },
+    {
+      "name": "Ghost-Danger Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Demoted ungrounded action — text-only red so it is available but never the obvious choice. FailureWarn only.",
+      "html": "<button class=\"ds-btn-ghost-danger\">Generate without sources</button>",
+      "css": ".ds-btn-ghost-danger { background: transparent; color: #b91c1c; padding: 10px 12px; min-height: 44px; border: none; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: opacity 150ms linear; } .ds-btn-ghost-danger:active { opacity: 0.85; }"
+    },
+    {
+      "name": "Source Chip (Signature)",
+      "kind": "chip",
+      "refersTo": "chip-source",
+      "description": "The verification primitive made tactile. Tinted red-50 background, red-700 text, pill shape. The source IS the design.",
+      "html": "<span class=\"ds-chip-source\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"2\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"/></svg>field-medical.oapack.zip · §3.2</span>",
+      "css": ".ds-chip-source { display: inline-flex; align-items: center; gap: 6px; background: #fef2f2; color: #b91c1c; padding: 4px 10px; border-radius: 999px; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; }"
+    },
+    {
+      "name": "FailureCritical Card (Tier 3)",
+      "kind": "card",
+      "refersTo": "card-error",
+      "description": "Hard-stop card with full-width red banner strip across the top (NOT a side stripe). Mono diagnostic rows. Action order fixed: fallback → repair → alt.",
+      "html": "<div class=\"ds-card-critical\"><div class=\"ds-card-critical-strip\">MODEL UNUSABLE</div><div class=\"ds-card-critical-body\"><h3>Inference engine crashed</h3><p>The model is no longer responsive. Restart the engine or fall back to a smaller model.</p><dl class=\"ds-card-critical-rows\"><div><dt>model</dt><dd>gemma-3n-4b-it-int4</dd></div><div><dt>error</dt><dd>OOM at token 1247</dd></div></dl><div class=\"ds-card-critical-actions\"><button class=\"ds-btn-neutral\">Use smaller model</button><button class=\"ds-btn-primary\">Restart engine</button><button class=\"ds-btn-secondary\">Open logs</button></div></div></div>",
+      "css": ".ds-card-critical { background: #ffffff; border: 1px solid #e7e5e4; border-radius: 16px; overflow: hidden; } .ds-card-critical-strip { background: #dc2626; color: #ffffff; padding: 8px 16px; font-size: 13px; font-weight: 800; letter-spacing: 0.6px; text-transform: uppercase; } .ds-card-critical-body { padding: 16px; display: flex; flex-direction: column; gap: 8px; } .ds-card-critical-body h3 { color: #111827; font-size: 18px; font-weight: 700; margin: 0; } .ds-card-critical-body p { color: #4b5563; font-size: 14px; line-height: 1.5; margin: 0; } .ds-card-critical-rows { background: #f5f5f4; border-radius: 8px; padding: 8px; margin: 4px 0; display: flex; flex-direction: column; gap: 4px; } .ds-card-critical-rows > div { display: flex; gap: 8px; } .ds-card-critical-rows dt { color: #4b5563; font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; min-width: 96px; max-width: 40%; margin: 0; } .ds-card-critical-rows dd { color: #111827; font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; flex: 1; margin: 0; } .ds-card-critical-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }"
+    },
+    {
+      "name": "AmbientBanner (System State)",
+      "kind": "custom",
+      "refersTo": "card-warn",
+      "description": "Top-of-layout system-state strip. Pulsing dot (native-driver, reduced-motion gated), sans message, mono progress. Never red.",
+      "html": "<div class=\"ds-ambient\"><span class=\"ds-ambient-dot\"></span><span class=\"ds-ambient-msg\">Indexing pack</span><span class=\"ds-ambient-progress\">847 / 2104 chunks · 12s</span><button class=\"ds-ambient-action\">Pause</button></div>",
+      "css": ".ds-ambient { display: flex; align-items: center; gap: 8px; padding: 8px 16px; background: #f5f5f4; border-bottom: 1px solid #e7e5e4; } .ds-ambient-dot { width: 8px; height: 8px; border-radius: 999px; background: #4b5563; animation: ds-ambient-pulse 1400ms ease-in-out infinite; } @keyframes ds-ambient-pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } } @media (prefers-reduced-motion: reduce) { .ds-ambient-dot { animation: none; opacity: 0.7; } } .ds-ambient-msg { color: #111827; font-family: system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 600; flex-shrink: 1; } .ds-ambient-progress { color: #4b5563; font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; margin-left: auto; } .ds-ambient-action { background: transparent; color: #111827; padding: 6px 10px; border: 1px solid #e7e5e4; border-radius: 999px; font-size: 12px; font-weight: 600; cursor: pointer; }"
+    },
+    {
+      "name": "Card (Neutral)",
+      "kind": "card",
+      "refersTo": "card-neutral",
+      "description": "Default card surface. Element-white background, hairline border, 12px or 16px radius, 16px padding.",
+      "html": "<div class=\"ds-card\"><h3>No model loaded</h3><p>Load a model to start chatting. Everything runs on-device, no connection needed.</p><button class=\"ds-btn-primary\">Go to Models →</button></div>",
+      "css": ".ds-card { background: #ffffff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 12px; } .ds-card h3 { color: #111827; font-size: 16px; font-weight: 700; margin: 0; } .ds-card p { color: #4b5563; font-size: 14px; line-height: 1.5; margin: 0; }"
+    },
+    {
+      "name": "Toggle",
+      "kind": "input",
+      "refersTo": "toggle-on-track",
+      "description": "Pill-track toggle. Red-600 track when on, warm-stone track when off. White thumb.",
+      "html": "<button class=\"ds-toggle ds-toggle-on\" role=\"switch\" aria-checked=\"true\"><span class=\"ds-toggle-thumb\"></span></button>",
+      "css": ".ds-toggle { width: 44px; height: 26px; border-radius: 999px; border: none; padding: 2px; cursor: pointer; transition: background 150ms linear; position: relative; } .ds-toggle.ds-toggle-on { background: #dc2626; } .ds-toggle.ds-toggle-off { background: #d6d3d1; } .ds-toggle-thumb { display: block; width: 22px; height: 22px; border-radius: 999px; background: #ffffff; transition: transform 150ms linear; } .ds-toggle.ds-toggle-on .ds-toggle-thumb { transform: translateX(18px); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Manual",
+    "overview": "OfflineAid looks and behaves like a printed field manual that also happens to talk back. The interface is a calm authority in the user's hand at the worst moment of their week: a stressed lay user in a dead zone, a medic confirming a wound-care procedure, an aid worker triangulating a route. Every pixel inherits the discipline of Garmin inReach, Apple Health summary, and ICRC field apps — dense information, restrained palette, generous hierarchy, no decoration. The system earns trust by *not trying to*.\n\nThe chrome is warm-charcoal in dark and warm-stone in light, never blue-purple navy and never cool-cast greys. A single saturated red carries the entire accent system: it appears on the primary action, the source-citation chip, the failure tier-3 strip, and almost nowhere else. The rest of the surface is neutral on purpose, so red, when it appears, *means something*. The interface is not afraid of empty space and not afraid of monospace numbers.\n\nThis system explicitly rejects the SaaS clichés that pollute the LLM-wrapper space: no purple-blue AI gradients, no ✨ AI thinking sparkles, no glassmorphism, no hero-metric tiles, no gamified streaks, no mascot avatars, no engagement nags. Honesty about latency beats hiding it. Source attribution is not decoration: it is the verification primitive that makes an offline answer trustworthy.",
+    "keyCharacteristics": [
+      "Single-hue red accent ramp (red-600 fill, red-700 strong, red-400/300 text on dark, red-50/950 tinted surfaces).",
+      "Warm-stone neutrals in light, warm-charcoal in dark. No cool greys, no navy.",
+      "44pt minimum touch target on every interactive element. One-handed reach matters.",
+      "Monospace for diagnostic data; system sans for everything else.",
+      "Pill-shaped buttons (radius 999); rounded cards (radius 12 or 16).",
+      "Flat by default. Depth comes from tonal layering, not shadows.",
+      "WCAG AA in light AND dark, including the red ramp on tinted surfaces."
+    ],
+    "rules": [
+      { "name": "The Single Voice Rule", "body": "One hue carries the entire accent system. There is no secondary accent, no second saturated color, no 'info blue' or 'success green' used decoratively.", "section": "colors" },
+      { "name": "The 10% Rule", "body": "At rest, on any given screen, red occupies less than 10% of the visible surface area. Red dominance is a tier-3 failure-state signal.", "section": "colors" },
+      { "name": "The Dual-Red Role Rule", "body": "red-600 and red-700 are fill colors. red-400 and red-300 are text/icon colors on dark surfaces only. Never invert.", "section": "colors" },
+      { "name": "The No Cool-Grey Rule", "body": "Neutrals tint warm: stone family for chrome, gray-900 for ink. No slate backgrounds, no zinc, no navy. The warmth is the trust signal.", "section": "colors" },
+      { "name": "The Source-Chip Rule", "body": "Source citations get the only 'red on neutral' treatment in the body: surfaceAccent background, red-700 text, pill shape. The source IS the verification primitive.", "section": "colors" },
+      { "name": "The Mono-for-Truth Rule", "body": "Anything the field pro will read as data — TTFT, tok/s, file path, hash, model identifier, byte count, error code — uses mono. Anything the user reads as language uses sans.", "section": "typography" },
+      { "name": "The No Mono Body Rule", "body": "Mono is for data, never for prose. If a sentence is in mono, it is a regression.", "section": "typography" },
+      { "name": "The Density Rule", "body": "Body line-height is 1.5 (21px on 14px). Tighter than 1.4 reads as cramped instructions; looser than 1.6 reads as marketing copy.", "section": "typography" },
+      { "name": "The No-Shadow Rule", "body": "No box-shadow. Depth is communicated by tonal layering and 1px borders. If you see a shadow, it is a regression.", "section": "elevation" },
+      { "name": "The Tonal-Step Rule", "body": "Stack at most three tonal layers visible at once: background → backgroundElement → surfaceAccent (or surfaceMuted). Four layers is a cluttered surface; rework.", "section": "elevation" },
+      { "name": "The Press-Only Motion Rule", "body": "The only state-driven visual change at rest is opacity: 0.85 on press. No hover transitions (touch-first). No focus rings beyond the platform default.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do ship red-600 (#dc2626) for the single fill accent and red-700 (#b91c1c) for its pressed state. One hue carries the system.",
+      "Do use red-400 and red-300 for text/icon weight on dark surfaces only.",
+      "Do keep red below 10% of any non-failure screen.",
+      "Do put diagnostic data (TTFT, tok/s, file paths, hashes, model IDs) in ui-monospace.",
+      "Do show the source. Every retrieval-grounded answer is followed by a source chip.",
+      "Do enforce minHeight: 44 on every Pressable, Button, and TouchableOpacity.",
+      "Do gate every animation on useReducedMotion().",
+      "Do use tonal layering for depth. Hairline 1px borders for separation.",
+      "Do route every color through theme tokens. Memoize the StyleSheet via useMemo.",
+      "Do use the system sans for prose (inherits Dynamic Type and OS font scaling).",
+      "Do put primary actions in the lower hemisphere of the screen for one-handed reach.",
+      "Do show the perf number. Honesty about latency beats hiding it."
+    ],
+    "donts": [
+      "Don't introduce a second saturated accent. There is no 'info blue', no 'success green' used decoratively, no purple, no orange.",
+      "Don't use red-400 as a fill. It exists ONLY for text/icon AA on dark.",
+      "Don't use red-600 as text on #0a0a0a. Fails AA.",
+      "Don't put any red on bubbleUser. The user's own utterance is neutral, not panic-tinted.",
+      "Don't put any red on the perf bar. Perf is diagnostic, not alert.",
+      "Don't hardcode hex values. Route every color through theme tokens.",
+      "Don't use side-stripe borders (borderLeft: 4px solid …). Tier-3's red banner is a full-width top strip, not a side stripe.",
+      "Don't add box-shadows. The system is flat. Depth is tonal.",
+      "Don't nest cards. A card inside a card is always wrong.",
+      "Don't use #000 or #fff raw. Background ink is #111827 / #f8fafc; surfaces tint warm.",
+      "Don't ship gamified onboarding (streaks, XP bars, confetti, 'you're on a roll!' copy). Trivialises a serious-context tool.",
+      "Don't ship mascot UIs. No friendly cartoon companion, no anthropomorphised AI avatar.",
+      "Don't ship dopamine-loop patterns (pulsing notification dots used decoratively, 'new!' badges, engagement nags).",
+      "Don't ship generic AI-chatbot shells. No purple/blue AI gradient chrome, no '✨ AI thinking…' sparkles, no glassmorphism, no hero-metric tiles.",
+      "Don't use em-dashes in user-facing copy. Use commas, colons, semicolons, or periods.",
+      "Don't use mono for prose. Mono is for instrument output.",
+      "Don't ship motion-only state communication.",
+      "Don't use cool-cast greys (slate, zinc) or navy. The neutrals tint warm.",
+      "Don't decorate the source chip. Pill, tinted background, red-700 text. Nothing else."
+    ]
+  }
+}

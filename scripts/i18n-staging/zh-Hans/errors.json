@@ -1,0 +1,17 @@
+{
+  "no_coverage": "无包覆盖此问题。",
+  "no_coverage_with_closest": "您包中最接近的静态答案如下。",
+  "maps_gap": "设备上没有地图包。静态安全包支持 EN/ZH/AR。请在设置中导入地图包。",
+  "pack_language_gap": "没有 {{language}} 包。已激活包：{{languages}}。请询问这些语言中的任何一种，或导入一个 {{language}} 包。",
+  "model_not_loaded": "未加载模型。请打开模型，然后加载 Gemma 4 E2B。",
+  "geo_handoff_maps_gap": "设备上没有地图包。静态安全包支持 EN/ZH/AR。请在设置中导入地图包。",
+  "geo_gps_unavailable": "飞行模式下无法使用 GPS。请重新启用定位，然后再次提问。",
+  "answer_without_source_dialog": "无来源答案？",
+  "answer_without_source_body": "模型将不基于您的包进行回复。请在采取行动前核实答案。",
+  "answer_anyway": "仍回答",
+  "browse_packs": "浏览包",
+  "answer_without_source_button": "无来源答案",
+  "open_models": "打开模型",
+  "native_runtime_check": "需要原生运行时检查",
+  "web_only_message": "请构建或打开原生应用以验证 LiteRT、感知、模型存储和其他设备端功能。Web 和 Expo Go 无法运行这些原生的 OfflineAid 功能。"
+}

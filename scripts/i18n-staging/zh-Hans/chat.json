@@ -1,0 +1,21 @@
+{
+  "title": "OfflineAid",
+  "placeholder": "问任何问题…",
+  "listening": "离线收听中…",
+  "thinking": "思考中…",
+  "model_unloaded_banner": "模型未加载 — 请打开“设置”→“模型”，然后点击“加载”以恢复。",
+  "offline_sources": "离线源",
+  "static_ref_warning": "静态参考资料；状态可能已更改。",
+  "copy_filename": "复制文件名",
+  "copy_snippet": "复制片段",
+  "empty_app_name": "OfflineAid",
+  "empty_tagline": "您的离线危机与紧急援助助手",
+  "empty_no_model_title": "未加载模型",
+  "empty_no_model_body": "加载模型开始聊天。所有内容都在设备本地运行，无需连接。",
+  "empty_no_model_cta": "前往模型 →",
+  "empty_ready_title": "聊天就绪",
+  "empty_ready_no_packs": "您可以立即开始提问。添加知识包可在离线数据中获取答案：地图、健康指南或本地紧急信息。",
+  "empty_browse_packs": "浏览知识包",
+  "empty_ready_packs_one": "1 个知识包已激活。答案将基于您的离线数据。",
+  "empty_ready_packs_other": "{{count}} 个知识包已激活。答案将基于您的离线数据。"
+}

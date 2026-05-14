@@ -1,0 +1,22 @@
+{
+  "title": "Camera",
+  "perception_capabilities": "Perception capabilities",
+  "mode_photo": "Photo",
+  "mode_photo_a11y": "Take a photo",
+  "mode_scan": "Scan",
+  "mode_scan_a11y": "Scan a barcode or QR code",
+  "mode_library": "Library",
+  "mode_library_a11y": "Pick a photo from the library",
+  "live_cues_title": "Live cues",
+  "live_cues_body": "Live cues keep barcode detection hot and sample the view for lightweight labels every few seconds. OCR and entities fill in after you capture or import a frame and run Analyze.",
+  "pause_live_scan": "Pause live scan",
+  "resume_live_scan": "Resume live scan",
+  "live_status_sampling": "Sampling…",
+  "live_status_watching": "Watching",
+  "live_status_paused": "Paused",
+  "live_ocr": "Live OCR",
+  "live_barcodes": "Live barcodes",
+  "live_labels": "Live labels",
+  "live_scan_hint": "Point the camera at a sign, form, receipt, menu, QR code, or document to start seeing live cues.",
+  "feature_name": "Camera and perception"
+}

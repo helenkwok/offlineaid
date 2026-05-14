@@ -1,0 +1,20 @@
+{
+  "title": "相機",
+  "perception_capabilities": "感知能力",
+  "mode_photo": "拍照",
+  "mode_photo_a11y": "拍攝照片",
+  "mode_scan": "掃描",
+  "mode_scan_a11y": "掃描條碼或二維碼",
+  "mode_library": "相簿",
+  "mode_library_a11y": "從相簿選擇照片",
+  "live_cues_title": "即時提示",
+  "live_cues_body": "即時提示會持續偵測條碼，並每隔幾秒採樣畫面，以獲取輕量標籤。OCR 和實體會在您擷取或匯入畫面並執行「分析」後填入。",
+  "pause_live_scan": "暫停即時掃描",
+  "resume_live_scan": "恢復即時掃描",
+  "live_status_sampling": "正在採樣…",
+  "live_status_watching": "正在觀看",
+  "live_status_paused": "已暫停",
+  "live_ocr": "即時 OCR",
+  "live_barcodes": "即時條碼",
+  "live_labels": "即時標籤"
+}

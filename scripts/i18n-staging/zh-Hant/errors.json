@@ -1,0 +1,17 @@
+{
+  "no_coverage": "無資料包涵此問題。",
+  "no_coverage_with_closest": "您資料包中最接近的靜態答案如下。",
+  "maps_gap": "設備上沒有地圖資料包。靜態安全資料包涵 EN/ZH/AR。請在設定中匯入地圖資料包。",
+  "pack_language_gap": "沒有 {{language}} 資料包。已啟用資料包：{{languages}}。請詢問這些語言中的任何一個，或匯入 {{language}} 資料包。",
+  "model_not_loaded": "未載入模型。請開啟模型，然後載入 Gemma 4 E2B。",
+  "geo_handoff_maps_gap": "設備上沒有地圖資料包。靜態安全資料包涵 EN/ZH/AR。請在設定中匯入地圖資料包。",
+  "geo_gps_unavailable": "飛航模式下無法使用 GPS。請重新啟用定位，然後再問一次。",
+  "answer_without_source_dialog": "無來源的答案？",
+  "answer_without_source_body": "模型將在沒有根據您的資料包基礎的情況下回覆。行動前請驗證答案。",
+  "answer_anyway": "仍要回答",
+  "browse_packs": "瀏覽資料包",
+  "answer_without_source_button": "無來源的答案",
+  "open_models": "開啟模型",
+  "native_runtime_check": "需要原生運行時檢查",
+  "web_only_message": "請建置或開啟原生應用程式以驗證 LiteRT、感知、模型儲存和其他裝置端功能。網頁和 Expo Go 無法運行這些原生 OfflineAid 功能。"
+}

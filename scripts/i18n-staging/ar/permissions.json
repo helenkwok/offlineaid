@@ -1,0 +1,8 @@
+{
+  "camera_title": "السماح بالوصول إلى الكاميرا",
+  "camera_body": "التقط صورًا مرجعية أو مستندات أو سياق المشهد مباشرة داخل OfflineAid.",
+  "camera_action": "منح الوصول",
+  "camera_blocked_title": "تم حظر إذن الكاميرا",
+  "camera_blocked_body": "تم إيقاف الوصول إلى الكاميرا لـ OfflineAid. افتح إعدادات النظام لتفعيله مرة أخرى.",
+  "camera_blocked_action": "فتح الإعدادات"
+}

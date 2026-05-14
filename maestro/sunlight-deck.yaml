@@ -1,0 +1,23 @@
+# 11-10 SUNLIGHT-1 verification deck (dev build).
+# Verifies Settings → Display screen + Sunlight Mode toggle + auto-switch
+# dialog (when active scheme is dark).
+appId: com.helenkwok.offlineaid.dev
+name: sunlight-deck
+---
+- launchApp:
+    clearState: false
+- tapOn:
+    text: "Settings"
+- takeScreenshot: /tmp/sunlight-01-settings-list.png
+# Settings list should now contain a Display row (registered by Task 2
+# of 11-10 in (tabs)/(settings)/index.tsx).
+- assertVisible: "Display"
+- tapOn:
+    text: "Display"
+- assertVisible: "Sunlight Mode"
+- takeScreenshot: /tmp/sunlight-02-display-screen.png
+# Toggle Sunlight ON. With Dark scheme active, the SunlightAutoSwitchDialog
+# should render. With Light scheme, no dialog -- just an instant theme swap.
+- tapOn:
+    text: "Sunlight Mode"
+- takeScreenshot: /tmp/sunlight-03-toggle-on.png

@@ -1,0 +1,8 @@
+{
+  "camera_title": "允許相機存取",
+  "camera_body": "在 OfflineAid 中直接拍攝參考照片、文件或場景上下文。",
+  "camera_action": "授予存取",
+  "camera_blocked_title": "相機權限被阻擋",
+  "camera_blocked_body": "OfflineAid 的相機存取已關閉。請開啟系統設定以重新啟用。",
+  "camera_blocked_action": "開啟設定"
+}

@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+
+# Expo / web outputs
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Generated native projects and module builds
+/ios
+/android
+**/android/build/
+**/android/.gradle/
+**/android/.cxx/
+**/ios/build/
+.kotlin/
+
+# Build artifacts
+*.apk
+*.aab
+*.apks
+*.ipa
+*.hprof
+*.orig.*
+*.tsbuildinfo
+coverage/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro / logs
+.metro-health-check*
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+lerna-debug.*
+
+# Local env files
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# OMX runtime state
+.omx/logs/
+.omx/notepad.md
+.omx/plans/
+.omx/state/
+
+# Local-only folders
+app-example
+
+# macOS
+.DS_Store

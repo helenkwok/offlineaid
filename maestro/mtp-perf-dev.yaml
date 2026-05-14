@@ -1,0 +1,42 @@
+# Phase op-1 — MTP perf verification flow (dev variant).
+#
+# Loads the LiteRT-LM E2B model (no-op if already loaded), sends a single fixed
+# anti-scam prompt, waits for completion, and screenshots the chat. Pair with
+# `adb logcat -d -s ReactNativeJS:I` filtered on `OFFLINEAID_EVAL ` to harvest
+# TTFT + tokps for the v0.11.0 + ExperimentalFlags.enableSpeculativeDecoding=true
+# build. Compare against v0.10.0 baseline in
+# `repositories/offlineaid-pack-builder/eval/.maestro-out/prompt-01-run0.json` family.
+#
+# This is a minimal one-shot flow targeting com.helenkwok.offlineaid.dev. The full
+# pack-builder eval pipeline (test_device_e2e.py) is the canonical perf harness for
+# the production variant.
+appId: com.helenkwok.offlineaid.dev
+name: mtp-perf-dev
+---
+# Restart the app cold each run so the chat input starts empty AND there's no
+# residual chat history that would skew the next run's TTFT. Maestro's eraseText
+# was hitting a 120s grpc deadline on this Pixel 7 build; cold-start is faster
+# AND more reliable.
+- launchApp:
+    clearState: false
+- runFlow: _load-model-dev.yaml
+- tapOn:
+    text: "Chat"
+- extendedWaitUntil:
+    visible:
+      id: "chat-input"
+    timeout: 10000
+- tapOn:
+    id: "chat-input"
+- inputText: "What should I do if I have given my banking information to a scammer?"
+- tapOn:
+    id: "chat-send"
+- extendedWaitUntil:
+    visible:
+      id: "chat-stop"
+    timeout: 30000
+- extendedWaitUntil:
+    notVisible:
+      id: "chat-stop"
+    timeout: 120000
+- takeScreenshot: /tmp/mtp-perf-dev-result.png

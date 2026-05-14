@@ -1,0 +1,18 @@
+{
+  "title": "探索",
+  "search_placeholder": "搜尋資料包",
+  "searching": "正在搜尋…",
+  "mode_knowledge": "知識",
+  "mode_knowledge_a11y": "搜尋知識片段",
+  "mode_places": "地點",
+  "mode_places_a11y": "搜尋地點和設施",
+  "empty_no_packs": "沒有啟用資料包",
+  "empty_no_packs_sub": "前往設定 > 資料包，匯入並啟用適用於您地區的知識資料包。",
+  "empty_manage_packs": "管理資料包",
+  "empty_search_data": "搜尋本地資料",
+  "empty_knowledge_hint": "搜尋離線程序、緊急資訊和指南。",
+  "empty_places_hint": "搜尋附近的設施和興趣點。",
+  "no_results_knowledge": "找不到符合的知識片段。",
+  "no_results_places": "找不到符合的地點。",
+  "result_from_pack": "來自 {{packName}} 知識資料包的結果。"
+}

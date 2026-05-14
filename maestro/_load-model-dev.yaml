@@ -1,0 +1,49 @@
+# Idempotent model-load subflow for the dev variant. Mirrors
+# offlineaid-pack-builder/eval/maestro/_load-model.yaml but targets
+# com.helenkwok.offlineaid.dev. Short-circuits when a model is already loaded.
+appId: com.helenkwok.offlineaid.dev
+name: _load-model-dev
+---
+- runFlow:
+    when:
+      visible:
+        text: "No model loaded"
+    commands:
+      - tapOn:
+          text: "Settings"
+      - tapOn:
+          text: "Models"
+      - extendedWaitUntil:
+          visible:
+            id: "models-screen"
+          timeout: 10000
+      # Scroll until the Gemma 4 E2B row is CENTERED on screen, not just
+      # peeking from the bottom edge. centerElement:true ensures the row +
+      # its LOAD button sit comfortably in the middle of the viewport so
+      # the LOAD tap below targets the right glyph.
+      - scrollUntilVisible:
+          element:
+            id: "model-row-litert-community/gemma-4-E2B-it-litert-lm/gemma-4-E2B-it.litertlm"
+          direction: DOWN
+          centerElement: true
+          timeout: 20000
+      - tapOn:
+          text: "LOAD"
+      # Scroll back to the SYSTEM section so "Chat: Ready" is in viewport.
+      # SYSTEM lives above-the-fold but the LOAD tap was deep below it.
+      - scrollUntilVisible:
+          element:
+            text: "SYSTEM"
+          direction: UP
+          timeout: 10000
+      - extendedWaitUntil:
+          visible: "Chat: Ready"
+          timeout: 120000
+      # Dismiss the Models formSheet (back), then back again from the
+      # Settings entry list to clear nav stack, then tap the Chat tab.
+      # tapOn:text:"Chat" alone is ambiguous because "Chat: Ready" in SYSTEM
+      # is also a Text node and matches first.
+      - back
+      - back
+      - tapOn:
+          text: "Chat"

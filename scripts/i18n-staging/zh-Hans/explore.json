@@ -1,0 +1,18 @@
+{
+  "title": "探索",
+  "search_placeholder": "搜索资料包",
+  "searching": "搜索中…",
+  "mode_knowledge": "知识",
+  "mode_knowledge_a11y": "搜索知识片段",
+  "mode_places": "地点",
+  "mode_places_a11y": "搜索地点和设施",
+  "empty_no_packs": "没有激活的资料包",
+  "empty_no_packs_sub": "前往设置 > 资料包，导入并激活适用于您地区的知识资料包。",
+  "empty_manage_packs": "管理资料包",
+  "empty_search_data": "搜索本地数据",
+  "empty_knowledge_hint": "搜索离线流程、紧急信息和指南。",
+  "empty_places_hint": "搜索附近的设施和兴趣点。",
+  "no_results_knowledge": "未找到匹配的知识片段。",
+  "no_results_places": "未找到匹配的地点。",
+  "result_from_pack": "来自 {{packName}} 知识资料包的结果。"
+}

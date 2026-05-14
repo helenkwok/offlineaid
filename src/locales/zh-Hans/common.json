@@ -1,0 +1,20 @@
+{
+  "back": "返回",
+  "cancel": "取消",
+  "ok": "确定",
+  "confirm": "确认",
+  "done": "完成",
+  "close": "关闭",
+  "open": "打开",
+  "send": "发送",
+  "stop": "停止",
+  "retry": "重试",
+  "remove": "移除",
+  "delete": "删除",
+  "copy": "复制",
+  "import": "导入",
+  "download": "下载",
+  "load": "加载",
+  "save": "保存",
+  "clear": "清除"
+}

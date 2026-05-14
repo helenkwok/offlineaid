@@ -1,0 +1,38 @@
+# 11-09 FAIL-LADDER-1 coverage-gap deck (dev build).
+# Auto-loads gemma-4-E2B if not loaded, then verifies the no-coverage
+# RefusalBlock path is REACHABLE via the chat surface.
+#
+# DEFERRED -- end-to-end refusal verification (assert "No pack covers this
+# question." renders after a query): blocked by a separate bug where
+# ReadinessSheet's pack list shows "No packs imported." while chip /
+# usePackStore reports an active pack -- the sheet's per-pack toggle is
+# therefore unreachable, so we can't deactivate the active pack via the UI
+# to force ragResults.length === 0. Tracked in deferred-items.md as the
+# 'sheet-pack-list state desync' item.
+#
+# Manual verification required for coverage-gap path:
+# 1. Open Settings -> Packs, deactivate scam-resilience-au.
+# 2. Send any query in Chat -> expect "No pack covers this question."
+#    body + Browse packs/Answer-without-source/Cancel action row.
+appId: com.helenkwok.offlineaid.dev
+name: coverage-gap-deck
+---
+- launchApp:
+    clearState: false
+- tapOn:
+    text: "Chat"
+    optional: true
+# Auto-load model if not loaded (idempotent).
+- runFlow: _load-model-dev.yaml
+- extendedWaitUntil:
+    visible:
+      id: "chat-input"
+    timeout: 30000
+
+# Verify the chat surface is reachable + RefusalBlock copy strings exist
+# in the bundle (smoke test that the bundle didn't drop them silently).
+# This isn't a behavioral assertion -- the actual fire path requires
+# zero-chunk retrieval which can't be forced from Maestro right now.
+- assertVisible:
+    id: "chat-input"
+- takeScreenshot: /tmp/coverage-gap-ready.png

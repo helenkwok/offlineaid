@@ -1,0 +1,7 @@
+{
+  "name": "offlineaid-perception",
+  "version": "1.0.0",
+  "description": "OfflineAid Expo native bridge for on-device image perception.",
+  "private": true,
+  "main": "src/index.ts"
+}

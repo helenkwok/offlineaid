@@ -1,0 +1,8 @@
+{
+  "camera_title": "允许访问相机",
+  "camera_body": "在 OfflineAid 中直接拍摄参考照片、文件或场景上下文。",
+  "camera_action": "授予访问",
+  "camera_blocked_title": "相机权限被阻止",
+  "camera_blocked_body": "OfflineAid 的相机访问已关闭。请打开系统设置重新启用。",
+  "camera_blocked_action": "打开设置"
+}

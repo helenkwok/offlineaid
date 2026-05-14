@@ -1,0 +1,9 @@
+{
+  "platforms": ["android", "apple"],
+  "apple": {
+    "modules": ["OfflineAidPerceptionModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.offlineaidperception.OfflineAidPerceptionModule"]
+  }
+}
