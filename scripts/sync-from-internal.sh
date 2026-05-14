@@ -135,5 +135,5 @@ if [[ "$DRY_RUN" == "0" ]] && [[ "$SYNCED" -gt 0 || "$SKIPPED" -gt 0 ]]; then
   echo "Updated $SYNC_TAG in internal to $(echo $TO | cut -c1-7)"
   echo "Synced: $SYNCED  |  Skipped (private-only): $SKIPPED"
   echo
-  echo "Next: git push origin master"
+  echo "Next: git push origin main"
 fi
