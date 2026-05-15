@@ -34,7 +34,6 @@ interface RuntimeGateProps {
 
 /**
  * RuntimeGate — blocks access to native-only features on unsupported platforms (Web, Expo Go, etc.)
- * Adheres strictly to .planning/phases/01-native-runtime-baseline/01-UI-SPEC.md
  */
 export function RuntimeGate({ featureName, message, isChecking, onRetry }: RuntimeGateProps) {
   const theme = useTheme();

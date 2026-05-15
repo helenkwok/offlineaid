@@ -5,7 +5,6 @@ OfflineAid is a multilingual **offline-first** resilience app: local knowledge p
 ## Documentation
 
 - **[docs/README.md](./docs/README.md)** — index of operator and technical guides (verification, native builds, packs, models).
-- **[`.planning/`](./.planning/)** — GSD planning: `PROJECT.md`, `REQUIREMENTS.md`, `ROADMAP.md`, `STATE.md`, and phase artifacts.
 
 ## Prerequisites
 

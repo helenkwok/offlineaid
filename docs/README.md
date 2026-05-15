@@ -16,10 +16,6 @@ This folder is the entry point for **operators** (local verification, releases) 
 | [PACKS.md](./PACKS.md) | Knowledge pack formats, import flow, and safety expectations |
 | [MODELS.md](./MODELS.md) | On-device models (LiteRT / GGUF), runtime helpers, Hugging Face token handling without storing secrets in the repo |
 
-## Planning and requirements
-
-Product direction, phased roadmap, and traceability live under [`.planning/`](../.planning/). Start with `PROJECT.md`, `REQUIREMENTS.md`, and `ROADMAP.md` if you are aligning work with the current milestone.
-
 ## Expo Go vs development build
 
 **Expo Go** is a quick sandbox but does not include OfflineAid’s custom native modules (`offlineaid-litert`, `offlineaid-perception`, and related bridges). For perception, on-device models, and full offline flows, use a **development build** (custom dev client) built from this repository. See [OPERATOR.md](./OPERATOR.md) and [NATIVE.md](./NATIVE.md) for the exact commands.

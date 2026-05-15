@@ -1,5 +1,3 @@
-<!-- generated-by: gsd-doc-writer -->
-
 # Testing
 
 ## Unit tests (Jest)

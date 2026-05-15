@@ -1,5 +1,3 @@
-<!-- generated-by: gsd-doc-writer -->
-
 # Architecture
 
 OfflineAid is an **offline-first** mobile app: **Expo Router** drives navigation, **Zustand** holds client state, and **on-device** inference (GGUF via `llama.rn` / **LiteRT** via a custom module) powers chat when models are loaded.
@@ -22,10 +20,6 @@ OfflineAid is an **offline-first** mobile app: **Expo Router** drives navigation
 **Knowledge packs** — Import flows validate archives and databases in `src/services/pack-import.ts`; SQLite-backed search and geo helpers live in `src/services/pack.ts`.
 
 **Perception** — `src/services/perception.ts` normalizes native image analysis and transcription results for UI and for `buildPerceptionChatDraft()` when sending context to chat.
-
-## Deeper reference
-
-Agent-oriented detail (stack, integrations, concerns) lives in **`.planning/codebase/`** after a codebase map refresh. This file stays user- and contributor-facing.
 
 ## License
 

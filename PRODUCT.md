@@ -1,9 +1,5 @@
 # Product
 
-## Register
-
-product
-
 ## Users
 
 OfflineAid serves three user types, with the **crisis lay user** as the brutal-test persona — every design optimises for their context, and the other personas inherit that clarity.

@@ -1,5 +1,3 @@
-<!-- generated-by: gsd-doc-writer -->
-
 # Getting started
 
 ## What you need
@@ -39,7 +37,6 @@ See **[NATIVE.md](./NATIVE.md)** and **[OPERATOR.md](./OPERATOR.md)** for rebuil
 
 1. Read the root **[README.md](../README.md)** for the one-screen overview.
 2. Use **[docs/README.md](./README.md)** as the index to operator and topic guides (packs, models, native).
-3. For planning and requirements, see **`.planning/PROJECT.md`** and **`.planning/ROADMAP.md`**.
 
 ## License
 
