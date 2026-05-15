@@ -18,7 +18,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.helenkwok.offlineaid"
+      "package": "com.helenkwok.offlineaid",
+      "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "web": {
       "output": "static",
@@ -36,8 +37,7 @@
         "expo-image-picker",
         {
           "photosPermission": "Allow OfflineAid to access your photo library for offline image import.",
-          "cameraPermission": "Allow OfflineAid to use the camera for offline photo capture.",
-          "microphonePermission": false
+          "cameraPermission": "Allow OfflineAid to use the camera for offline photo capture."
         }
       ],
       [
@@ -67,7 +67,7 @@
           "backgroundColor": "#f5f5f4",
           "android": {
             "image": "./assets/images/splash-icon.png",
-            "imageWidth": 500
+            "imageWidth": 200
           }
         }
       ],
