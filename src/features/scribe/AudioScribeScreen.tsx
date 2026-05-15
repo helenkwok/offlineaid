@@ -1052,6 +1052,23 @@ ${resultText.trim()}`;
         {errorText ? (
           <View style={styles.errorBlock}>
             <Text style={styles.errorText}>{errorText}</Text>
+            {/* Mic permission errors land in a system-blocked state after
+                first denial — the OS no longer surfaces the prompt. Take the
+                user to system settings where they can grant manually. */}
+            {errorText === t('mic_permission_error') ? (
+              <Pressable
+                style={({ pressed }) => [
+                  styles.secondaryButton,
+                  pressed && styles.buttonPressed,
+                ]}
+                onPress={() => void Linking.openSettings()}
+                accessibilityRole="button"
+                accessibilityLabel={t('open_system_settings')}>
+                <Text style={styles.secondaryButtonText}>
+                  {t('open_system_settings')}
+                </Text>
+              </Pressable>
+            ) : null}
             {/* Explicit cross-engine fallback. The user must opt into the
                 alternative; we never substitute silently. */}
             {selectedPath === 'system' && gemmaReady ? (
