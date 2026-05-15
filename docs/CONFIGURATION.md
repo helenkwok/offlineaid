@@ -1,3 +1,5 @@
+<!-- generated-by: gsd-doc-writer -->
+
 # Configuration
 
 This document describes **repository-visible** configuration. Anything not present in the tree is marked for manual verification.

@@ -23,7 +23,7 @@ npx expo run:android
 
 This compiles the Android project, links local modules, and installs the app. Use the same command after pulling changes that touch `modules/` or `android/` in this repo.
 
-Gradle tasks invoked by Expo may vary by SDK version; prefer any project-specific Gradle verification task documented in this repo for release-critical checks.
+Gradle tasks invoked by Expo may vary by SDK version; if the project documents a specific Gradle verification task in `.planning/` or phase notes, prefer that for release-critical checks.
 
 ## iOS (macOS)
 

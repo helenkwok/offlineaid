@@ -10,6 +10,9 @@
 //
 // Locale set: en · zh-Hans (Mandarin Simplified) · zh-Hant (Mandarin
 // Traditional) · ar. Anything else falls back to en.
+//
+// See .planning/notes/2026-05-11-i18n-pre-submission-plan.md for the
+// surrounding context.
 
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';

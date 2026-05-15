@@ -1,3 +1,5 @@
+<!-- generated-by: gsd-doc-writer -->
+
 # Development
 
 ## Everyday commands
@@ -29,6 +31,10 @@ Native modules autolink from `./modules` (see `package.json`).
 - **`src/providers/`** — LLM and LiteRT integration
 - **`src/store/`** — Zustand stores
 - **`modules/`** — Local Expo native packages
+
+## AI and agent guidelines
+
+Contributors using automation should read **`AGENTS.md`** at the repo root and **`.planning/REQUIREMENTS.md`** before large changes.
 
 ## License
 
